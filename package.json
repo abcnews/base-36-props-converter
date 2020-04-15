@@ -1,28 +1,28 @@
 {
-  "name": "base-36-props-converter",
-  "version": "1.0.0-pre",
-  "description": "A project generated from aunty's svelte project template.",
-  "license": "MIT",
-  "private": true,
-  "contributors": [
-    "Colin Gourlay <gourlay.colin@abc.net.au>"
-  ],
-  "aunty": {
-    "type": "svelte",
-    "build": {
-      "extractCSS": true,
-      "addModernJS": true
-    }
-  },
-  "scripts": {
-    "start": "aunty serve"
-  },
-  "devDependencies": {
-    "@abcnews/aunty": "^10.9.1"
-  },
-  "dependencies": {
-    "@abcnews/base-36-props": "^1.1.0",
-    "stringify-object": "^3.3.0",
-    "svelte": "^3.20.1"
-  }
+	"name": "base-36-props-converter",
+	"version": "1.0.0",
+	"description": "A project generated from aunty's svelte project template.",
+	"license": "MIT",
+	"private": true,
+	"contributors": [
+		"Colin Gourlay <gourlay.colin@abc.net.au>"
+	],
+	"aunty": {
+		"type": "svelte",
+		"build": {
+			"extractCSS": true,
+			"addModernJS": true
+		}
+	},
+	"scripts": {
+		"start": "aunty serve"
+	},
+	"devDependencies": {
+		"@abcnews/aunty": "^10.9.1"
+	},
+	"dependencies": {
+		"@abcnews/base-36-props": "^1.1.0",
+		"stringify-object": "^3.3.0",
+		"svelte": "^3.20.1"
+	}
 }
